@@ -5,7 +5,7 @@ load_dotenv()
 
 llm = ChatGroq(model="llama-3.1-8b-instant")
 
-st.title("✨ AskBuddy - AI QnA Bot 🚀")
+st.title("✨ AskBuddy - AI QnA ChatBot 🚀")
 st.markdown("My QnA Bot using LangChain and Groq AI!")
 
 if "messages" not in st.session_state:
@@ -23,3 +23,4 @@ if query:
     res = llm.invoke(query)
     st.chat_message("ai").markdown(res.content)
     st.session_state.messages.append({"role":"ai", "content":res.content})
+
