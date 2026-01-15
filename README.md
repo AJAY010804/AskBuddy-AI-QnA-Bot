@@ -1,4 +1,4 @@
-# ✨ AskBuddy – AI QnA Bot 🚀
+# ✨ AskBuddy – AI QnA ChatBot 🚀
 
 AskBuddy is an AI-powered Question & Answer chatbot built using **Streamlit**, **LangChain**, and **Groq LLM**.  
 It provides fast, interactive responses using the **LLaMA 3.1 model** and maintains chat history for a smooth user experience.
