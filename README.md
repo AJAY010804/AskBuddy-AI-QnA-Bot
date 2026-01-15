@@ -27,7 +27,7 @@ It provides fast, interactive responses using the **LLaMA 3.1 model** and mainta
 ## 📂 Project Structure
 
 ```
-AskBuddy-AI-QnA-Bot\
+AskBuddy-AI-QnA-Bot/
 │
 ├── app.py            # Main Streamlit app & UI logic
 ├── requirements.txt  # Project dependencies
